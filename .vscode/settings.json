@@ -1,5 +1,16 @@
 {
-	"files.associations": {
-		"wrangler.json": "jsonc"
-	}
+  "editor.formatOnSave": true,
+  "editor.renderControlCharacters": true,
+  "files.eol": "\n",
+  "[json][jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[javascript][javascriptreact][typescript][typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "files.associations": {
+    "wrangler.json": "jsonc"
+  }
 }
